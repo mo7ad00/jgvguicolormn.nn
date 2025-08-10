@@ -322,7 +322,7 @@ game.StarterGui:SetCore("SendNotification", {
     Text = "تم التفعيل بنجاح"; -- ARAB TEAM
     Duration = 5;
 })
-game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "TO_AKUMA Hub Script | V0.5")
+game:GetService("ReplicatedStorage").RE["1RPNam1eTex1t"]:FireServer("RolePlayName", "TO_AKUMA Hub Script | V1.2")
 
 local args = {
     [1] = "PickingRPNameColor",
@@ -8592,4 +8592,5 @@ AddColorPicker(Main, {
   Callback = function(Value)
     ESP.Color = Value
   end
+
 })
