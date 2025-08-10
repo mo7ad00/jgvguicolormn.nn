@@ -358,7 +358,7 @@ Title = "TO_AKUMA HUB || V1.2 || Brookhaven RB",
 Animation = "سكربت TO_AKUMA HUB"
 },
 Key = {
-KeySystem = true,
+KeySystem = false,
 Title = "Key System",
 Description = "",
 KeyLink = "",
@@ -8594,3 +8594,4 @@ AddColorPicker(Main, {
   end
 
 })
+
